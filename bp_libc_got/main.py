@@ -1,4 +1,4 @@
-from util import get_all_addresses, get_got_sections
+from bp_libc_got.util import get_all_addresses, get_got_sections
 
 
 def bp_got(gdb_api, libc_name=None, flag=False):

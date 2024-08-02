@@ -1,6 +1,6 @@
 # bp_libc_got
 
-Breakpoint at the address in the .got.plt section of the libraries loaded in the target process.
+Set Breakpoint at the address in the .got.plt section of the libraries loaded in the target process.
 
 # Features
 
