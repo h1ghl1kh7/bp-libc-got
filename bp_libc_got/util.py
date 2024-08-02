@@ -8,7 +8,7 @@ def get_got_sections(gdb_api, libc_name):
             end = int(ss[2], 16)
             path = ss[6]
             if (libc_name == None):
-                got_sections.append((start, end - start, path)
+                got_sections.append((start, end - start, path))
             elif (libc_name in path):
                 got_sections.append((start, end - start, path))
     return got_sections
